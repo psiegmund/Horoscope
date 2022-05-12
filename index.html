@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div class="hor">
+            <form id="myform">
+                <select name="mylist" size="5" id="mylist">
+                    <option value="11">January</option>
+                    <option value="12">February</option>
+                    <option value="1">March</option>
+                    <option value="2">April</option>
+                    <option value="3">May</option>
+                    <option value="4">June</option>
+                    <option value="5">July</option>
+                    <option value="6">August</option>
+                    <option value="7">September</option>
+                    <option value="8">October</option>
+                    <option value="9">November</option>
+                    <option value="10">December</option>
+                </select>
+                <a type="button" class="horButton" onclick="showtxt()" value="Paketgröße und -gewicht">Bitte gib deinen
+                    Geburtsmonat an:</a>
+            </form>
+            <div class="boxMasse">
+                <table>
+                    <tr>
+                        <td id="link"></td>
+                    </tr>
+                    <tr>
+                        <td id="headline"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="month"></td>
+                    </tr>
+                    <tr>
+                        <td id="text"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
